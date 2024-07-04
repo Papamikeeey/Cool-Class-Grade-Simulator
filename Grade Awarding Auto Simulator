@@ -1,0 +1,12 @@
+fn main(){ // Just some simple stuff I've come up with trying to kinda simulate an automatic grade awarder of some sort. Can be utilised in a class-like setup or module training
+    let number = 87; 
+    if number > 85 { // so pretty self-explanatory over here, any grade above this is the ultimate distinction of this class and gets top honours
+        println!("Excellent score! You totally aced this and placed at the top level!");
+    } else if number > 72 && number < 85 {
+        println!("Great score! Class passed!");
+    } else if number > 60 && number < 72 {
+        println!("Good. It's a pass. You move on!");
+    } else {
+        println!("Failed! I'm afraid you have to repeat this class...");
+    }
+} // By the way, I am pretty excited and pleased with how far I've come along on this mastery journey in such a short time frame. From starting the Rust trail alongside self-learning Computer Science like 1-2 days ago and pretty much getting the chops to doll out this is pretty amazing! Looking forward to more.
